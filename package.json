@@ -1,0 +1,31 @@
+{
+  "name": "tsw",
+  "version": "1.0.0",
+  "description": "Projekt z Technologii Sieci Web",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/reamider/ProjektTSW"
+  },
+  "author": "Sebastian Matyjas",
+  "license": "ISC",
+  "dependencies": {
+	"bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*", 
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
